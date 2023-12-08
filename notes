@@ -1,0 +1,20 @@
+to add comment
+
+{/*  hello , this is a comment */}
+
+*******************************************************
+to create new React app 
+
+C:\Users\user\AppData\Roaming 
+add a new folder npm
+
+go to terminal , use this command in vs code , ctrl + ` (back-tick above Tab )
+npx create-react-app card_app 
+
+name of the project is card_app , you can give any name 
+cd card_app
+npm start 
+
+details mentioned in launch.json
+
+*******************************************************
