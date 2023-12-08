@@ -18,3 +18,14 @@ npm start
 details mentioned in launch.json
 
 *******************************************************
+
+how to add multiple folders in github
+
+vs code
+File -> preferences -> Settings -> Files: Exclude 
+, remove .zip (X mark) and then delete .git in every folder .then create a new repo and do usual git bash commands.
+
+
+*********************************************************
+
+
