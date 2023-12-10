@@ -27,4 +27,14 @@ File -> preferences -> Settings -> Files: Exclude
 
 *********************************************************
 
+How to clone specific folder from github
 
+git --version
+2.42
+git init
+git remote add -f origin https://github.com/Mayur-G/react_demo.git
+git config core.sparseCheckout true
+git sparse-checkout set hook_app event_app
+git pull origin master
+
+***********************************************************
