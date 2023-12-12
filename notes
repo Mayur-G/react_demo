@@ -38,3 +38,10 @@ git sparse-checkout set hook_app event_app
 git pull origin master
 
 ***********************************************************
+
+PS C:\Users\user\Documents\react\await_axios_app> npm install react-router-dom
+
+PS C:\Users\user\Documents\react\await_axios_app> npm i axios
+
+*************************************************************
+
