@@ -44,4 +44,27 @@ PS C:\Users\user\Documents\react\await_axios_app> npm install react-router-dom
 PS C:\Users\user\Documents\react\await_axios_app> npm i axios
 
 *************************************************************
+ComponentDidMountDemo.jsx
+
+     in index.js , comment StrictMode tags , if not console.log will print twice in all methods 
+    
+     root.render(
+       //<React.StrictMode>
+          <App />
+       //</React.StrictMode>
+     );
+
+     root.render(
+       <React.StrictMode>
+          <App />
+       </React.StrictMode>
+     );
+
+    1)The initial data is displayed on the DOM, i.e., the name "Sonia Pahuja".
+    2)The componentDidMount() is called, which internally calls another function, i.e., fetchData().
+    3)The console will display "Our data is fetched."
+    4)This is the new state of our application. "Sonia Pahuja" is now "Hello World!".
+    5)This will again trigger a re-render, and finally, "Hello World" will be visible on the DOM.
+    
+****************************************
 
